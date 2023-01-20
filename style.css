@@ -20,8 +20,47 @@ nav a:last-of-type {
     background-color: red;
 } */
 
-
+/* 
 .bkgr_color1 {background-color: green;}
 .bkgr_color2 {background-color: greenyellow;}
 .text_color1 {color:white;}
-.text_color2 {color:yellow;}
+.text_color2 {color:yellow;} */
+
+* {
+    box-sizing: border-box; /* dont add paddings to the elements size */
+}
+
+html,body {
+    margin: 0;
+}
+
+.box {
+    background-color:lightskyblue;
+    width: 40vw;
+    height: 40vw;
+    padding: 0vw;
+    margin: 0vw;
+    border-radius: 2vw;
+    box-shadow: 5px 5px 20px 0px #5074ba99;
+    position: relative;
+}   
+
+.child {
+    background-color:pink;
+    width: 20vw;
+    height: 20vw;
+    padding: 0vw;
+    margin: 0vw;
+    border-radius: 2vw;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    /* box-shadow: 5px 5px 20px 0px #5074ba99; */
+    /* background: linear-gradient(to bottom,  pink 0%,lightskyblue 100%);  */
+
+
+
+
+
+}  
