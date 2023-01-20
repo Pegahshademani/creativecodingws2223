@@ -1,0 +1,12 @@
+/********** This is our style....never content here */
+
+/* this meams all of the html elements */ 
+
+* { 
+    /* color: red; */
+}
+
+
+body main section:first-of-type h1:first-child {
+    color: red;
+} 
