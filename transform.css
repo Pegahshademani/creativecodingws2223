@@ -4,17 +4,31 @@
     box-sizing: border-box; /* dont add paddings to the elements size */
 }
 
-html,body {
+body {
     margin: 0;
+    padding: 10vw;
 }
 
 
 /********** eo Globals ********/
 
+
 .box {
-    background-color:indianred;
+    background-color: orange;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 1vw;
+    padding: 1vw;
+    box-shadow: 0 0 10px 0 rgb(114, 72, 0); /* x y blur spread color */
+    transition-property: all; /*  change all rules you need that */
+    transition-duration: 0.2s; /* 400ms is some kind standard */
+
+}
+.box:hover {
+    background-color:black;
+    color: white;
+    transform: translate3d(0,0,0) perspective(50px) rotateY(45deg) rotateX(-15deg) rotateZ(125deg);
+    transition-property: all; /*  change all rules you need that */
+    transition-duration: 3s; /* 400ms is some kind standard */
 }
 
-.red {
-    color: red;
-}
