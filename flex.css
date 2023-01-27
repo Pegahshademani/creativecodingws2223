@@ -1,0 +1,71 @@
+/********** This is our style....never content here */
+
+
+* {
+    box-sizing: border-box; /* dont add paddings to the elements size */
+}
+
+html,body {
+    margin: 0;
+}
+
+
+.flex {
+    height: 80vh;
+    background-color: #ccc;
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    /* align-items:center; */
+    /* align-content: center;  */
+    
+}
+
+
+
+
+.item1 {
+background-color: aquamarine;
+/* flex-basis: 100%; */
+}
+
+
+.item2 {
+   background-color:peru;
+   /* flex: 1; */
+}
+
+
+.item3 {
+        background-color:rgb(205, 63, 167);
+        /* flex: 2; */
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+@media (orientation: landscape) {
+    
+  }
+  
+  @media (orientation: portrait) {
+    
+  }
+   */
+
+   /* @media (max-width: 480px) {
+   
+  } */
