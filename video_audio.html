@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- the head contains only meta informations -->
+        <title>Gabors portfolio website</title>
+        
+        <style>
+
+
+          
+            #fullscreenvideo {
+              position: absolute;
+              top: -9999px;
+              bottom: -9999px;
+              left: -9999px;
+              right: -9999px;
+              margin: auto;
+              min-width: 100%;
+              min-height: 100%;
+              z-index:-2;
+          }
+          
+          body {margin: 0;}
+          
+          h1 {
+            font-size: 25vh;
+            color: white;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            margin: 0;
+          }
+          .overlaygrid {
+            position: absolute;
+            background-image: url(img/grid1.gif);
+            width: 100vw;
+            height: 100vh;
+            z-index: 99999;
+            pointer-events: none; /*   no interaction with finger or mouse */
+          }
+          
+          
+          
+          </style>
+
+
+    </head>
+    <body>
+
+        <section class="overlaygrid"></section>
+
+        <h1>Hello Video</h1>
+        <h1>Hello Video</h1>
+        <h1>Hello Video</h1>
+        <h1>Hello Video</h1>
+        <h1>Hello Video</h1>
+
+
+    
+
+        <video id="fullscreenvideo" controls>
+            <source src="media/video.mp4" type="video/mp4">
+        </video>
+        
+ 
+      
+        
+
+        
+    </body>
+</html>
+
