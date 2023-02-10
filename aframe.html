@@ -6,11 +6,39 @@
     <meta name="description" content="Start into the aFrame">
     <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
    
-      
+    <style>
+        /***** hey...here is some css code..... */
+        
+    </style>
+
+  
+    
+
   </head>
   <body>
 
+    
+    <canvas id="canvas"></canvas>
 
+
+
+    <script>
+
+        function draw() {
+          const canvas = document.getElementById("canvas");
+          if (canvas.getContext) {
+            const ctx = canvas.getContext("2d");
+
+            ctx.fillRect(25, 25, 100, 100);
+ 
+          }
+        }
+
+        draw();
+
+
+
+    </script>
 
 
 
